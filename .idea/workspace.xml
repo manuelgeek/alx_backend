@@ -149,14 +149,23 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.AuthControllerTest.testUserRegisterValidationError">
+    <configuration name="AuthControllerTest.testUserRegisterValidationError" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\AuthControllerTest" file="$PROJECT_DIR$/tests/Unit/AuthControllerTest.php" method="testUserRegisterValidationError" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.AuthControllerTest.testUserRegisterValidationError" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -167,7 +176,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602521854356</updated>
       <workItem from="1602521855844" duration="116000" />
-      <workItem from="1602522020476" duration="3232000" />
+      <workItem from="1602522020476" duration="7150000" />
     </task>
     <servers />
   </component>
@@ -179,10 +188,14 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="578" y="298" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1602524093810" />
-    <state x="517" y="223" key="SettingsEditor" timestamp="1602523585733">
+    <state x="584" y="253" key="NewPhpClassDialog" timestamp="1602526956221">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="517" y="223" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1602523585733" />
+    <state x="584" y="253" key="NewPhpClassDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1602526956221" />
+    <state x="517" y="223" key="SettingsEditor" timestamp="1602528020924">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="517" y="223" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1602528020924" />
     <state x="584" y="388" key="cloudConfig.PluginsDialog" timestamp="1602521889955">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

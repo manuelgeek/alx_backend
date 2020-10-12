@@ -3,6 +3,7 @@
 namespace Tests;
 
 use Illuminate\Contracts\Console\Kernel;
+use Illuminate\Support\Facades\Artisan;
 
 trait CreatesApplication
 {
@@ -18,5 +19,23 @@ trait CreatesApplication
         $app->make(Kernel::class)->bootstrap();
 
         return $app;
+    }
+
+    protected function setUp(): void
+    {
+        parent::setUp();
+        $this->prepareForTests();
+    }
+
+    private function prepareForTests()
+    {
+        Artisan::call('migrate:fresh');
+        //we have no seeders
+//        Artisan::call('db:seed');
+    }
+
+    protected function tearDown(): void
+    {
+        parent::tearDown();
     }
 }
